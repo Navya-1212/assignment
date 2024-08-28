@@ -1,0 +1,56 @@
+.marksheet-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.report-card-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.marksheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.marksheet-table th,
+.marksheet-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.marksheet-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.marksheet-table td {
+  background-color: #f9f9f9;
+}
+
+.marksheet-table input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+.marksheet-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+.total-row td {
+  background-color: #d3eaf7;
+  font-weight: bold;
+  color: #2c3e50;
+}
